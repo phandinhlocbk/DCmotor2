@@ -1,0 +1,70 @@
+ÀÄDieukhiendongco887vs1
+   ÃÄMAIN  1/575  Ram=8
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄLCD_Init  1/147  Ram=0
+   ³  ³  ÃÄLCD_Send4Bit  0/55  Ram=2
+   ³  ³  ÃÄ@delay_ms1  0/20  Ram=1
+   ³  ³  ÃÄLCD_Send4Bit  0/55  Ram=2
+   ³  ³  ÃÄLCD_Enable  0/12  Ram=0
+   ³  ³  ÃÄ@delay_ms1  0/20  Ram=1
+   ³  ³  ÃÄLCD_Enable  0/12  Ram=0
+   ³  ³  ÃÄLCD_Enable  0/12  Ram=0
+   ³  ³  ÃÄLCD_Send4Bit  0/55  Ram=2
+   ³  ³  ÃÄLCD_Enable  0/12  Ram=0
+   ³  ³  ÃÄLCD_SendCommand  0/17  Ram=2
+   ³  ³  ³  ÃÄLCD_Send4Bit  0/55  Ram=2
+   ³  ³  ³  ÃÄLCD_Enable  0/12  Ram=0
+   ³  ³  ³  ÃÄLCD_Send4Bit  0/55  Ram=2
+   ³  ³  ³  ÀÄLCD_Enable  0/12  Ram=0
+   ³  ³  ÃÄLCD_SendCommand  0/17  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_SendCommand  0/17  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄLCD_SendCommand  0/17  Ram=2
+   ³  ³     ÀÄ*
+   ³  ÃÄ@MULFF  0/119  Ram=13
+   ³  ÃÄ@DIVFF  1/204  Ram=14
+   ³  ÃÄ@ADDFF  0/326  Ram=16
+   ³  ÃÄ@DIVFF  1/204  Ram=14
+   ³  ÃÄ@ADDFF  0/326  Ram=16
+   ³  ÃÄ@MULFF  0/119  Ram=13
+   ³  ÃÄ@DIVFF  1/204  Ram=14
+   ³  ÃÄ@ADDFF  0/326  Ram=16
+   ³  ÃÄ@MULFF  0/119  Ram=13
+   ³  ÃÄ@DIVFF  1/204  Ram=14
+   ³  ÃÄ@ADDFF  0/326  Ram=16
+   ³  ÀÄ@DIVFF  1/204  Ram=14
+   ÃÄngat_RS232  0/348  Ram=3
+   ³  ÃÄatoi  (Inline)  Ram=9
+   ³  ³  ÀÄ@MUL88  (Inline)  Ram=2
+   ³  ÃÄ@MUL1616  0/23  Ram=5
+   ³  ÀÄ@DIV1616  0/39  Ram=5
+   ÃÄngat_timer0  0/828  Ram=4
+   ³  ÃÄitoa  (Inline)  Ram=27
+   ³  ³  ÃÄ@MUL3232  (Inline)  Ram=13
+   ³  ³  ÃÄ@DIVS3232  0/124  Ram=14
+   ³  ³  ÀÄ@DIVS3232  0/124  Ram=14
+   ³  ÃÄ@PSTRINGR_936  (Inline)  Ram=2
+   ³  ³  ÀÄ@SPRINTF  (Inline)  Ram=1
+   ³  ÃÄLCD_Gotoxy  (Inline)  Ram=3
+   ³  ³  ÃÄ@delay_ms1  0/20  Ram=1
+   ³  ³  ÀÄLCD_SendCommand  0/17  Ram=2
+   ³  ³     ÀÄ*
+   ³  ÃÄLCD_Puts  (Inline)  Ram=3
+   ³  ³  ÀÄLCD_PutChar  (Inline)  Ram=1
+   ³  ³     ÀÄLCD_SendCommand  0/17  Ram=2
+   ³  ³        ÀÄ*
+   ³  ÃÄ@ITOF  (Inline)  Ram=2
+   ³  ÃÄ@MULFF  0/119  Ram=13
+   ³  ÃÄ@ADDFF  0/326  Ram=16
+   ³  ÃÄ@MULFF  0/119  Ram=13
+   ³  ÃÄ@ADDFF  0/326  Ram=16
+   ³  ÃÄ@MULFF  0/119  Ram=13
+   ³  ÃÄ@ADDFF  0/326  Ram=16
+   ³  ÃÄ@FLT  0/65  Ram=10
+   ³  ÃÄ@FLT  0/65  Ram=10
+   ³  ÃÄ@MULFF  0/119  Ram=13
+   ³  ÀÄ@SFTOI  (Inline)  Ram=4
+   ÀÄngat_CCP2  1/40  Ram=2
+      ÃÄ@MUL1616  0/23  Ram=5
+      ÀÄ@DIV1616  0/39  Ram=5

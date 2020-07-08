@@ -1,0 +1,22 @@
+[PROJECT]
+Target=khong PID.hex
+Processor_Text=PIC16F887
+CCSVersion=5.015
+Compiler=PCM
+[Target Data]
+FileList=khong PID.c
+[Directories]
+Include=C:\Program Files\PICC\Devices\;C:\Program Files\PICC\Drivers\
+[khong PID.c]
+Type=4
+[mru-list]
+1=khong PID.c
+[Opened Files]
+1=Dieukhiendongco887vs1.c
+2=dieu khien vi tri.c
+3=dieu khien dong co.c
+4=khong PID.c
+5=
+[Units]
+Count=1
+1=khong PID (main)

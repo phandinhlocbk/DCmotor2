@@ -1,0 +1,4 @@
+*** Error 128 "lcd.c" Line 19(1,2): A #DEVICE required before this line
+--- Info 300 "lcd.c" Line 18(22,23): More info:   ** I/O error 131
+      1 Errors,  0 Warnings.
+Build Failed.

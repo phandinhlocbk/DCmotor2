@@ -1,0 +1,203 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020     @INTERRUPT_AREA
+021     @INTERRUPT_AREA
+022     @INTERRUPT_AREA
+023     @INTERRUPT_AREA
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027-028 strtok.save
+029-02C _Randseed
+02D     count
+02E-02F read_pulses
+030-031 pulses
+032-035 read_angle
+036-039 c
+03A-041 str
+042     @TRIS_C
+043-044 @sprintf_string
+045     LCD_Gotoxy.x
+045-046 LCD_Puts.s
+045     MAIN.@SCRATCH1
+045     @PSTRINGR_925.@SCRATCH1
+046     LCD_Gotoxy.y
+046     MAIN.@SCRATCH2
+046     @PSTRINGR_925.@SCRATCH2
+047     @SPRINTF.P1
+047     LCD_Gotoxy.address
+047     LCD_Puts.@SCRATCH1
+048     @delay_ms1.P1
+048     LCD_PutChar.data
+049     LCD_SendCommand.command
+04A     LCD_SendCommand.@SCRATCH1
+04B     LCD_Send4Bit.data
+04C     LCD_Send4Bit.@SCRATCH1
+04D     interrupts_rs232.i
+04D-050 itoa.num
+04E-04F @MUL1616.P1
+04E-04F atol.s
+04E     interrupts_rs232.@SCRATCH1
+04F     interrupts_rs232.@SCRATCH2
+050-051 @DIV1616.P1
+050-051 atol.result
+050-051 @MUL1616.P1
+051     itoa.base
+052-053 @DIV1616.P1
+052-053 itoa.s
+052     atol.sign
+052     @MUL1616.@SCRATCH1
+053     atol.base
+054-057 itoa.temp
+054     atol.index
+054     @DIV1616.@SCRATCH1
+055     atol.c
+056-057 @MULS1616.P1
+056     atol.@SCRATCH1
+057     atol.@SCRATCH2
+058     itoa.i
+058-059 @MULS1616.P1
+058     atol.@SCRATCH3
+059     itoa.sign
+05A     itoa.cnt
+05A     @MULS1616.@SCRATCH1
+05B     itoa.c
+05B     @MULS1616.@SCRATCH2
+05C-05F @MUL3232.P1
+05C     itoa.@SCRATCH1
+05D     itoa.@SCRATCH2
+05E     itoa.@SCRATCH3
+05F     itoa.@SCRATCH4
+060-063 @MUL3232.P1
+060     itoa.@SCRATCH5
+061     itoa.@SCRATCH6
+062     itoa.@SCRATCH7
+063     itoa.@SCRATCH8
+064-067 @DIVS3232.P1
+064     itoa.@SCRATCH9
+064     @MUL3232.@SCRATCH1
+065     itoa.@SCRATCH10
+065     @MUL3232.@SCRATCH2
+066     itoa.@SCRATCH11
+066     @MUL3232.@SCRATCH3
+067     itoa.@SCRATCH12
+067     @MUL3232.@SCRATCH4
+068-06B @DIVS3232.P1
+068     @MUL3232.@SCRATCH5
+06C     @DIVS3232.@SCRATCH1
+06D     @DIVS3232.@SCRATCH2
+06E     @DIVS3232.@SCRATCH3
+06F     @DIVS3232.@SCRATCH4
+070     @DIVS3232.@SCRATCH5
+071     @DIVS3232.@SCRATCH6
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07F     @INTERRUPT_AREA
+0FF     @INTERRUPT_AREA
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+17F     @INTERRUPT_AREA
+1FF     @INTERRUPT_AREA
+27F     @INTERRUPT_AREA
+2FF     @INTERRUPT_AREA
+37F     @INTERRUPT_AREA
+3FF     @INTERRUPT_AREA
+47F     @INTERRUPT_AREA
+4FF     @INTERRUPT_AREA
+57F     @INTERRUPT_AREA
+5FF     @INTERRUPT_AREA
+67F     @INTERRUPT_AREA
+6FF     @INTERRUPT_AREA
+77F     @INTERRUPT_AREA
+7FF     @INTERRUPT_AREA
+87F     @INTERRUPT_AREA
+8FF     @INTERRUPT_AREA
+97F     @INTERRUPT_AREA
+9FF     @INTERRUPT_AREA
+A7F     @INTERRUPT_AREA
+AFF     @INTERRUPT_AREA
+B7F     @INTERRUPT_AREA
+BFF     @INTERRUPT_AREA
+C7F     @INTERRUPT_AREA
+CFF     @INTERRUPT_AREA
+D7F     @INTERRUPT_AREA
+DFF     @INTERRUPT_AREA
+E7F     @INTERRUPT_AREA
+EFF     @INTERRUPT_AREA
+F7F     @INTERRUPT_AREA
+FFF     @INTERRUPT_AREA
+
+ROM Allocation:
+00003A  interrupts_rs232
+00004D  atol
+0000C0  @MULS1616
+00018B  @MUL1616
+0001AA  @DIV1616
+0001DE  @DIVS3232
+000258  interrupts_ccp2
+000264  itoa
+00027C  @MUL3232
+00037D  LCD_Send4Bit
+0003A4  @delay_ms1
+0003B8  LCD_Enable
+0003C4  LCD_SendCommand
+0003D1  LCD_Init
+000402  @PSTRINGR_925
+00040D  @SPRINTF
+000425  LCD_Gotoxy
+00043E  LCD_Puts
+000453  LCD_PutChar
+00045F  @cinit1
+00045F  MAIN
+000483  @cinit2
+0136  StrtoulGO
+0136  StrtolGO
+
+Project Directory:
+    N:\Tai Lieu Hoc Tap Nam 4\Vi dieu khien\project\
+
+Project Files:
+    dieu khien vi tri.c                                     [28-Nov-14 13:59  CRC=C33C5445]
+    C:\Program Files\PICC\Devices\16f887.h                  [12-Nov-13 14:35  CRC=6CB1A611]
+    C:\Program Files\PICC\Drivers\stdlib.h                  [08-Jun-11 14:39  CRC=0B6669CF]
+    C:\Program Files\PICC\Drivers\stddef.h                  [16-Jul-10 09:27  CRC=897CEC6C]
+    C:\Program Files\PICC\Drivers\string.h                  [14-Jul-11 10:13  CRC=23EDEC8F]
+    C:\Program Files\PICC\Drivers\ctype.h                   [03-Jan-08 13:55  CRC=2D1F019F]
+    lcd.c                                                   [04-Oct-12 16:11  CRC=5D616902]
+    var.h                                                   [07-Jun-12 11:13  CRC=2539036B]
+
+Source signature=BDB1AE97
+
+Units:
+    dieu khien vi tri (main)
+
+Compiler Settings:
+    Processor:      PIC16F887
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   dieu khien vi tri.xsym
+    Errors:      dieu khien vi tri.err
+    Ext Symbols: dieu khien vi tri.esym
+    INHX8:       dieu khien vi tri.hex
+    Symbols:     dieu khien vi tri.sym
+    List:        dieu khien vi tri.lst
+    Debug/COFF:  dieu khien vi tri.cof
+    Project:     dieu khien vi tri.ccspjt
+    Call Tree:   dieu khien vi tri.tre
+    Statistics:  dieu khien vi tri.STA

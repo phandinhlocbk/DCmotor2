@@ -1,0 +1,22 @@
+[PROJECT]
+Target=xoa.hex
+Processor_Text=PIC16F887
+CCSVersion=5.015
+Compiler=PCM
+[Target Data]
+FileList=xoa.c
+[Directories]
+Include=C:\Program Files\PICC\Devices\;C:\Program Files\PICC\Drivers\
+[xoa.c]
+Type=4
+[mru-list]
+1=xoa.c
+[Opened Files]
+1=Dieukhiendongco887vs1.c
+2=..\Vi du Proteus PIC 16f877a\Dieu Khien PID Dong Co_OK\Dieu Khien PID Dong Co.c
+3=xoa.c
+4=dieu khien vi tri.c
+5=
+[Units]
+Count=1
+1=xoa (main)

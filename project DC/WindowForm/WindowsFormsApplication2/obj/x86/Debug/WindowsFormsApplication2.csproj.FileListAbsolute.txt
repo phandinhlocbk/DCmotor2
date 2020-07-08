@@ -1,0 +1,24 @@
+N:\Lap Trinh PIC\C#\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+N:\Lap Trinh PIC\C#\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+N:\Lap Trinh PIC\C#\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication1.RS232.resources
+N:\Lap Trinh PIC\C#\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+N:\Lap Trinh PIC\C#\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+N:\Lap Trinh PIC\C#\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+N:\Lap Trinh PIC\C#\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+N:\Lap Trinh PIC\C#\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+N:\Lap Trinh PIC\doanh\Tao giao dien bang C#\WindowForm\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+N:\Lap Trinh PIC\doanh\Tao giao dien bang C#\WindowForm\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+N:\Lap Trinh PIC\doanh\Tao giao dien bang C#\WindowForm\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+N:\Lap Trinh PIC\doanh\Tao giao dien bang C#\WindowForm\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+N:\Lap Trinh PIC\doanh\Tao giao dien bang C#\WindowForm\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+N:\Lap Trinh PIC\doanh\Tao giao dien bang C#\WindowForm\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication1.RS232.resources
+N:\Lap Trinh PIC\doanh\Tao giao dien bang C#\WindowForm\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+N:\Lap Trinh PIC\doanh\Tao giao dien bang C#\WindowForm\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+N:\Tai Lieu Hoc Tap Nam 4\Vi dieu khien\project\WindowForm\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+N:\Tai Lieu Hoc Tap Nam 4\Vi dieu khien\project\WindowForm\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+N:\Tai Lieu Hoc Tap Nam 4\Vi dieu khien\project\WindowForm\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+N:\Tai Lieu Hoc Tap Nam 4\Vi dieu khien\project\WindowForm\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+N:\Tai Lieu Hoc Tap Nam 4\Vi dieu khien\project\WindowForm\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+N:\Tai Lieu Hoc Tap Nam 4\Vi dieu khien\project\WindowForm\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication1.RS232.resources
+N:\Tai Lieu Hoc Tap Nam 4\Vi dieu khien\project\WindowForm\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+N:\Tai Lieu Hoc Tap Nam 4\Vi dieu khien\project\WindowForm\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache

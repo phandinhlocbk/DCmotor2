@@ -1,0 +1,57 @@
+
+ROM used:   491/8192 (6%)
+            491/8192 (6%) including unused fragments
+
+            0.2 Average locations per line
+            1.0 Average locations per statement
+
+RAM used:   26/368 (7%) at main() level
+            36/368 (10%) worst case
+
+Stack used: 1 worst case (0 in main + 1 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   42    16   3  khong PID.c
+  768     0   0  C:\Program Files\PICC\Devices\16f887.h
+ 1351   359  72  C:\Program Files\PICC\Drivers\stdlib.h
+   32     0   0  C:\Program Files\PICC\Drivers\stddef.h
+  423   125  25  C:\Program Files\PICC\Drivers\string.h
+   28     0   0  C:\Program Files\PICC\Drivers\ctype.h
+----- -----
+ 2644   500 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+ Inline         2             @MUL88
+ Inline         9  1815 10.5  atoi
+ Inline         5             @DIV1616
+ Inline         5             @MUL1616
+0    358  73    3   225  4.5  ngat_RS232
+0     84  17    1   226  3.6  MAIN
+ Inline         0   250  3.7  @cinit1
+
+Program metrics:
+    Functions               4
+    Statements              500
+    Comments                908
+    Volume (V)              3125
+    Difficulty (D)          22.3
+    Effort to implement (E) 69793
+    Time to implement (T)   1 hours, 5 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   12
+    Maintainability (MI)    9
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00030    45  0  
+00031-007FF   442  1557  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

@@ -1,0 +1,44 @@
+ÀÄdieu khien vi tri
+   ÃÄMAIN  0/132  Ram=2
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄLCD_Init  0/49  Ram=0
+   ³  ³  ÃÄLCD_Send4Bit  0/39  Ram=2
+   ³  ³  ÃÄ@delay_ms1  0/20  Ram=1
+   ³  ³  ÃÄLCD_Send4Bit  0/39  Ram=2
+   ³  ³  ÃÄLCD_Enable  0/12  Ram=0
+   ³  ³  ÃÄ@delay_ms1  0/20  Ram=1
+   ³  ³  ÃÄLCD_Enable  0/12  Ram=0
+   ³  ³  ÃÄLCD_Enable  0/12  Ram=0
+   ³  ³  ÃÄLCD_Send4Bit  0/39  Ram=2
+   ³  ³  ÃÄLCD_Enable  0/12  Ram=0
+   ³  ³  ÃÄLCD_SendCommand  0/13  Ram=2
+   ³  ³  ³  ÃÄLCD_Send4Bit  0/39  Ram=2
+   ³  ³  ³  ÃÄLCD_Enable  0/12  Ram=0
+   ³  ³  ³  ÃÄLCD_Send4Bit  0/39  Ram=2
+   ³  ³  ³  ÀÄLCD_Enable  0/12  Ram=0
+   ³  ³  ÃÄLCD_SendCommand  0/13  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_SendCommand  0/13  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄLCD_SendCommand  0/13  Ram=2
+   ³  ³     ÀÄ*
+   ³  ÃÄ@PSTRINGR_925  0/35  Ram=2
+   ³  ³  ÀÄ@SPRINTF  (Inline)  Ram=1
+   ³  ÃÄLCD_Gotoxy  0/25  Ram=3
+   ³  ³  ÃÄ@delay_ms1  0/20  Ram=1
+   ³  ³  ÀÄLCD_SendCommand  0/13  Ram=2
+   ³  ³     ÀÄ*
+   ³  ÀÄLCD_Puts  0/33  Ram=3
+   ³     ÀÄLCD_PutChar  (Inline)  Ram=1
+   ³        ÀÄLCD_SendCommand  0/13  Ram=2
+   ³           ÀÄ*
+   ÃÄinterrupts_rs232  0/420  Ram=3
+   ³  ÃÄatol  (Inline)  Ram=11
+   ³  ³  ÀÄ@MULS1616  (Inline)  Ram=6
+   ³  ÃÄ@MUL1616  (Inline)  Ram=5
+   ³  ÀÄ@DIV1616  (Inline)  Ram=5
+   ÀÄinterrupts_ccp2  0/293  Ram=0
+      ÀÄitoa  (Inline)  Ram=27
+         ÃÄ@MUL3232  (Inline)  Ram=13
+         ÃÄ@DIVS3232  0/122  Ram=14
+         ÀÄ@DIVS3232  0/122  Ram=14

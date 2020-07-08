@@ -1,0 +1,22 @@
+[PROJECT]
+Target=dieu khien vi tri.hex
+Processor_Text=PIC16F887
+CCSVersion=5.015
+Compiler=PCM
+[Target Data]
+FileList=dieu khien vi tri.c
+[Directories]
+Include=C:\Program Files\PICC\Devices\;C:\Program Files\PICC\Drivers\
+[dieu khien vi tri.c]
+Type=4
+[mru-list]
+1=dieu khien vi tri.c
+[Opened Files]
+1=dieu khien vi tri.c
+2=Dieukhiendongco887vs1.c
+3=
+4=dieu khien vi tri.c
+5=
+[Units]
+Count=1
+1=dieu khien vi tri (main)

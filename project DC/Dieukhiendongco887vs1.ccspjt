@@ -1,0 +1,27 @@
+[PROJECT]
+Target=Dieukhiendongco887vs1.hex
+Processor_Text=PIC16F887
+CCSVersion=5.015
+Compiler=PCM
+[Target Data]
+FileList=Dieukhiendongco887vs1.c
+[Directories]
+Include=C:\Program Files\PICC\Devices\;C:\Program Files\PICC\Drivers\
+[Dieukhiendongco887vs1.c]
+Type=4
+[mru-list]
+1=Dieukhiendongco887vs1.c
+[Opened Files]
+1=dieu khien vi tri.c
+2=Dieukhiendongco887vs1.c
+3=
+4=
+5=
+6=
+7=lcd.c
+8=var.h
+9=main.h
+10=
+[Units]
+Count=1
+1=Dieukhiendongco887vs1 (main)

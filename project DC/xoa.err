@@ -1,0 +1,9 @@
+>>> Warning 216 "xoa.c" Line 109(2,3): Interrupts disabled during call to prevent re-entrancy:  (LCD_Send4Bit)
+>>> Warning 216 "xoa.c" Line 109(2,3): Interrupts disabled during call to prevent re-entrancy:  (@delay_ms1)
+>>> Warning 216 "xoa.c" Line 109(2,3): Interrupts disabled during call to prevent re-entrancy:  (LCD_SendCommand)
+>>> Warning 216 "xoa.c" Line 109(2,3): Interrupts disabled during call to prevent re-entrancy:  (@MULFF)
+>>> Warning 216 "xoa.c" Line 109(2,3): Interrupts disabled during call to prevent re-entrancy:  (@ADDFF)
+>>> Warning 202 "xoa.c" Line 26(6,7): Variable never used:   b
+      Memory usage:   ROM=31%      RAM=26% - 42%
+      0 Errors,  6 Warnings.
+Build Successful.

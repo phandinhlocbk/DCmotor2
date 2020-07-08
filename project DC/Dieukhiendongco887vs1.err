@@ -1,0 +1,8 @@
+>>> Warning 216 "Dieukhiendongco887vs1.c" Line 126(2,3): Interrupts disabled during call to prevent re-entrancy:  (LCD_Send4Bit)
+>>> Warning 216 "Dieukhiendongco887vs1.c" Line 126(2,3): Interrupts disabled during call to prevent re-entrancy:  (@delay_ms1)
+>>> Warning 216 "Dieukhiendongco887vs1.c" Line 126(2,3): Interrupts disabled during call to prevent re-entrancy:  (LCD_SendCommand)
+>>> Warning 216 "Dieukhiendongco887vs1.c" Line 126(2,3): Interrupts disabled during call to prevent re-entrancy:  (@MULFF)
+>>> Warning 216 "Dieukhiendongco887vs1.c" Line 126(2,3): Interrupts disabled during call to prevent re-entrancy:  (@ADDFF)
+      Memory usage:   ROM=37%      RAM=27% - 42%
+      0 Errors,  5 Warnings.
+Build Successful.

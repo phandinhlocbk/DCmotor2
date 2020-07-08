@@ -1,0 +1,8 @@
+ÀÄkhong PID
+   ÃÄMAIN  0/84  Ram=1
+   ³  ÀÄ@cinit1  (Inline)  Ram=0
+   ÀÄngat_RS232  0/358  Ram=3
+      ÃÄatoi  (Inline)  Ram=9
+      ³  ÀÄ@MUL88  (Inline)  Ram=2
+      ÃÄ@DIV1616  (Inline)  Ram=5
+      ÀÄ@MUL1616  (Inline)  Ram=5
